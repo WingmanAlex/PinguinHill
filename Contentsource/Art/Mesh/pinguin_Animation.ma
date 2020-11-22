@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: pinguin_Animation.ma
-//Last modified: Sun, Nov 22, 2020 11:45:23 AM
+//Last modified: Sun, Nov 22, 2020 12:17:51 PM
 //Codeset: 1252
 file -rdi 1 -ns "pinguin_Rig" -rfn "pinguin_RigRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/lindh/Documents/GitHub/PinguinHill/Contentsource/Art/Mesh/pinguin_Rig.ma";
@@ -19,13 +19,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "343C6473-44AE-7DB3-058A-AAA334F4D378";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.976065696157747 138.32817013971001 350.76060620891803 ;
-	setAttr ".r" -type "double3" -21.938352726701648 -2502.1999999989657 -4.1755809474617939e-16 ;
+	setAttr ".t" -type "double3" 199.58014373731882 205.22340251009291 157.07723222173234 ;
+	setAttr ".r" -type "double3" -29.738352726680155 -2470.1999999987825 4.9275959401133536e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BDD630D8-442D-B5A3-0A63-059CE1BDF63C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 347.27772560513864;
+	setAttr ".coi" 295.8874764453326;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -14042,7 +14042,7 @@ createNode shadingEngine -n "lambert2SG";
 createNode materialInfo -n "materialInfo1";
 	rename -uid "D39CC3F8-41B4-33EB-08F5-7799D86449A4";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "B8325B10-4490-9C04-5239-998F27A14524";
+	rename -uid "CF143550-4369-7AAE-4255-2B86B0C76897";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -323.21427287090444 -51.785712227934937 ;
 	setAttr ".tgi[0].vh" -type "double2" 325.59522515724626 330.35712972992997 ;
